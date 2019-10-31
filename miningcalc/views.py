@@ -13,7 +13,7 @@ class miningcalc(View):
         }
         return render(request,self.template_name, {'context':context})
     def post(self,request,*args,**kwargs):
-        self.hash_rate = float(request.POST.get('hash-rate'))
+        self.hash_rate = float(request.POST.get('hashRate'))
         self.consumed_power = float(request.POST.get('power'))
         self.costKWh = float(request.POST.get('cost'))
         self.coin_price = cryptcomp.get_price('BTC',curr="USD")['BTC']['USD']
