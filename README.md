@@ -1,6 +1,5 @@
 # CryptoPiper
+A cryptocurrency mining calculator
 
-## A cryptocurrency mining calculator
-
-### Screenshot
+**Screenshot:**
 ![Screenshot](screenshot.png)
