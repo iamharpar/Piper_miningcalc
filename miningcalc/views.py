@@ -9,7 +9,7 @@ class miningcalc(View):
     hash_rate = 12
     consumed_power = 10
     costKWh = 8
-    template_name = 'test.html'
+    template_name = 'index.html'
     net_profit = 0
     def get(self,request,*args,**kwargs):
         print(request.GET)
